@@ -10,5 +10,6 @@ export default defineConfig({
   preview: {
     host: true,
     port: 3000,
+    allowedHosts: ['weatherapp-3xfo.onrender.com'], // ✅ Add this line
   },
 })
