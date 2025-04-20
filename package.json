@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "start": "serve -s build",
-    "build": "react-scripts build",
-    "dev": "react-scripts start",
-    "lint": "eslint .",
-    "preview": "vite preview"
+   "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
